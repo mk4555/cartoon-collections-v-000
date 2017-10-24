@@ -19,7 +19,7 @@ def find_the_cheese(s)# code an argument here
   s.each do |a|
     binding.pry
     if cheese_types.include?(a)
-      return true
+      ans = true
     else
       return nil
     end

@@ -24,4 +24,5 @@ def find_the_cheese(s)# code an argument here
       ans = nil
     end
   end
+  ans
 end

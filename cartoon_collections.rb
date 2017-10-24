@@ -18,7 +18,7 @@ def find_the_cheese(s)# code an argument here
   ans = true
   s.each do |a|
     if cheese_types.include?(a)
-      ans = true
+      return a
     else
       ans = nil
     end
